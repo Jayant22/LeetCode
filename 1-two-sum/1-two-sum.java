@@ -11,7 +11,6 @@ class Solution {
             if(map.containsKey(target - nums[i])){
                 arr[0] = map.get(target - nums[i]);
                 arr[1] = i;
-                System.out.println(nums[map.get(target - nums[i])]+ " " + nums[i] + " " + arr[0] + " " + arr[1]);
                 return arr;
             }
 
